@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com04.ssm.dao.ProductDao">
+
+
+
+<!--这个不要也可以  但是有复杂的SQL语句；就可以这样写-->
+
+
+</mapper>
