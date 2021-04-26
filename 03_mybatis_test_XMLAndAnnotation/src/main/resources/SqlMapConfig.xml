@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<!--上面是Mybatis最基本的文件头-->
+
+<!--Mybatis的主配置文件-->
+<configuration>
+    <!--配置环境-->
+    <environments default="mysql">
+        <!--配置mysql的环境-->
+        <environment id="mysql">
+            <!--配置事务类型-->
+            <transactionManager type="JDBC"></transactionManager>
+            <!--配置数据源/连接池-->
+            <dataSource type="POOLED">
+                <!--配置连接数据库的4个基本信息      与spring整合后驱动就变为？没变一样是这个驱动？-->
+                <property name="driver" value="com.mysql.jdbc.Driver"/>
+                <property name="url" value="jdbc:mysql://localhost:3306/travel?characterEncoding=utf8"/>
+                <property name="username" value="root"/>
+                <property name="password" value="qbj5201314"/>
+            </dataSource>
+        </environment>
+    </environments>
+
+
+    <!--知道使用resource和class的区别-->
+    <mappers>
+        <!--注解方式是点 . 的目录   因为是class-->
+        <mapper class="com03.yun.dao.ProductDao"/>
+        <!--xml方式  是斜杠/   的命令  resources代表文件-->
+        <mapper resource="com03/yun/dao/ProductDao.xml"/>
+
+        <!--  注意在resources文件夹下创建目录有技巧的，你只能一级级创建目录；
+              不能一次性com03.yun.xx这样子一次性创建出来,不然会形成下面的效果
+              导致报错找不到文件
+          com03/yun/dao/ProductDao.xml
+          com03.yun.dao/ProductDao.xml
+        -->
+    </mappers>
+    <!--到时候与spring整合后；这个在applicationContext.xml怎么写？-->
+</configuration>

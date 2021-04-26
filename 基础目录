@@ -1,0 +1,12 @@
+01 (Mybatis)这个module是测试mybatis连接mysql数据库，且使用xml映射文件来写sql语句的方式(不是把sql写在注解里面)
+
+02 (Mybatis)这个module是把SQL语句写到注解中
+
+03 (Mybatis)这个module是注解和xml映射文件混合使用
+
+04 (SSM)这个module是测试写的接口；看看返回的数据结构
+
+
+
+总结：
+    .idea这个目录都可以删除的，然后你重启IDEA刷新就可以自动生成，target目录也可以删除

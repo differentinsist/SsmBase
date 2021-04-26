@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!--这个映射配置文件可以直接放在实体类文件夹下，也可以放在resources里面(但是你里面其的目录结构要和实体类的结构一样)-->
+<mapper namespace="com03.yun.dao.ProductDao">
+    <select id="findAllProductMessage" resultType="com03.yun.pojo.Product">
+        SELECT * FROM product
+    </select>
+</mapper>
+

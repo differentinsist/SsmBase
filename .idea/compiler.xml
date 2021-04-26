@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="01_mybatis_test_connect_mysql" />
+        <module name="02_mybatis_test_connect_mysql_annotation" />
+        <module name="03_mybatis_test_XMLAndAnnotation" />
+        <module name="03_mybatis_test_XMLAndAnotation" />
+        <module name="04_SSM_test_GetInterfaceMessage" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="01_mybatis_test_connect_mysql" target="1.5" />
+      <module name="02_mybatis_test_connect_mysql_annotation" target="1.5" />
+      <module name="03_mybatis_test_XMLAndAnnotation" target="1.5" />
+      <module name="03_mybatis_test_XMLAndAnotation" target="1.5" />
+      <module name="04_SSM_test_GetInterfaceMessage" target="1.5" />
+      <module name="Mybatis_Spring_SpringMVC" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

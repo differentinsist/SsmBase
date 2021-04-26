@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/01_mybatis_test_connect_mysql/01_mybatis_test_connect_mysql.iml" filepath="$PROJECT_DIR$/01_mybatis_test_connect_mysql/01_mybatis_test_connect_mysql.iml" />
+      <module fileurl="file://$PROJECT_DIR$/02_mybatis_test_connect_mysql_annotation/02_mybatis_test_connect_mysql_annotation.iml" filepath="$PROJECT_DIR$/02_mybatis_test_connect_mysql_annotation/02_mybatis_test_connect_mysql_annotation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/03_mybatis_test_XMLAndAnnotation/03_mybatis_test_XMLAndAnnotation.iml" filepath="$PROJECT_DIR$/03_mybatis_test_XMLAndAnnotation/03_mybatis_test_XMLAndAnnotation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/04_SSM_test_GetInterfaceMessage/04_SSM_test_GetInterfaceMessage.iml" filepath="$PROJECT_DIR$/04_SSM_test_GetInterfaceMessage/04_SSM_test_GetInterfaceMessage.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Mybatis_Spring_SpringMVC.iml" filepath="$PROJECT_DIR$/Mybatis_Spring_SpringMVC.iml" />
+    </modules>
+  </component>
+</project>
