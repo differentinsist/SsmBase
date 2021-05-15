@@ -7,18 +7,30 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="01_mybatis_test_connect_mysql" />
+        <module name="01_spring_xml" />
         <module name="02_mybatis_test_connect_mysql_annotation" />
         <module name="03_mybatis_test_XMLAndAnnotation" />
         <module name="03_mybatis_test_XMLAndAnotation" />
         <module name="04_SSM_test_GetInterfaceMessage" />
+        <module name="1-javaseTest" />
+        <module name="2-javase-collections" />
+        <module name="3-java-Thread-Runnable" />
+        <module name="4-java-desigin" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="01_mybatis_test_connect_mysql" target="1.5" />
+      <module name="01_spring_xml" target="1.8" />
       <module name="02_mybatis_test_connect_mysql_annotation" target="1.5" />
       <module name="03_mybatis_test_XMLAndAnnotation" target="1.5" />
       <module name="03_mybatis_test_XMLAndAnotation" target="1.5" />
       <module name="04_SSM_test_GetInterfaceMessage" target="1.5" />
+      <module name="05_javaSE" target="1.5" />
+      <module name="06_ssm_transaction" target="1.8" />
+      <module name="1-javaseTest" target="1.5" />
+      <module name="2-javase-collections" target="1.5" />
+      <module name="3-java-Thread-Runnable" target="1.6" />
+      <module name="4-java-desigin" target="1.5" />
       <module name="Mybatis_Spring_SpringMVC" target="1.5" />
     </bytecodeTargetLevel>
   </component>

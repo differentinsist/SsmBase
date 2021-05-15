@@ -7,6 +7,7 @@ import org.apache.ibatis.io.Resources;
 import org.apache.ibatis.session.SqlSession;
 import org.apache.ibatis.session.SqlSessionFactory;
 import org.apache.ibatis.session.SqlSessionFactoryBuilder;
+import org.springframework.beans.factory.BeanFactory;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -35,6 +36,5 @@ public class TestMybatisConnect {
         //释放资源(先开后关)
         sqlSession.close();
         resourceAsStream.close();
-
     }
 }
