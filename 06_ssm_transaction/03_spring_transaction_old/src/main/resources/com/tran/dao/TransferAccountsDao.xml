@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.tran.dao.TransferAccountsDao">
+
+    <select id="findAll" resultType="com.tran.pojo.Transaction">
+        SELECT * FROM transaction
+    </select>
+
+    <select id="queryAccountName" parameterType="string" resultType="java.lang.Integer" >
+        SELECT  name FROM transaction WHERE name = #{name}
+    </select>
+
+    <update id="updateMoney" parameterType="com.tran.pojo.Transaction" >
+        UPDATE transaction SET money = #{money} WHERE name = ${name}
+    </update>
+
+    <select id="queryMoneyByName" parameterType="string" resultType="java.lang.Integer">
+        SELECT money FROM  transaction WHERE name = #{name}
+    </select>
+</mapper>
+

@@ -2,18 +2,31 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/06_ssm_transaction/00_spring_xml_only/00_spring_xml_only.iml" filepath="$PROJECT_DIR$/06_ssm_transaction/00_spring_xml_only/00_spring_xml_only.iml" />
       <module fileurl="file://$PROJECT_DIR$/01_mybatis_test_connect_mysql/01_mybatis_test_connect_mysql.iml" filepath="$PROJECT_DIR$/01_mybatis_test_connect_mysql/01_mybatis_test_connect_mysql.iml" />
       <module fileurl="file://$PROJECT_DIR$/06_ssm_transaction/01_spring_xml/01_spring_xml.iml" filepath="$PROJECT_DIR$/06_ssm_transaction/01_spring_xml/01_spring_xml.iml" />
       <module fileurl="file://$PROJECT_DIR$/02_mybatis_test_connect_mysql_annotation/02_mybatis_test_connect_mysql_annotation.iml" filepath="$PROJECT_DIR$/02_mybatis_test_connect_mysql_annotation/02_mybatis_test_connect_mysql_annotation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/06_ssm_transaction/02_spring_xml_and_annotation/02_spring_xml_and_annotation.iml" filepath="$PROJECT_DIR$/06_ssm_transaction/02_spring_xml_and_annotation/02_spring_xml_and_annotation.iml" />
       <module fileurl="file://$PROJECT_DIR$/03_mybatis_test_XMLAndAnnotation/03_mybatis_test_XMLAndAnnotation.iml" filepath="$PROJECT_DIR$/03_mybatis_test_XMLAndAnnotation/03_mybatis_test_XMLAndAnnotation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/06_ssm_transaction/03_spring_transaction_old/03_spring_transaction_old.iml" filepath="$PROJECT_DIR$/06_ssm_transaction/03_spring_transaction_old/03_spring_transaction_old.iml" />
       <module fileurl="file://$PROJECT_DIR$/04_SSM_test_GetInterfaceMessage/04_SSM_test_GetInterfaceMessage.iml" filepath="$PROJECT_DIR$/04_SSM_test_GetInterfaceMessage/04_SSM_test_GetInterfaceMessage.iml" />
       <module fileurl="file://$PROJECT_DIR$/05_javaSE/05_javaSE.iml" filepath="$PROJECT_DIR$/05_javaSE/05_javaSE.iml" />
       <module fileurl="file://$PROJECT_DIR$/06_ssm_transaction/06_ssm_transaction.iml" filepath="$PROJECT_DIR$/06_ssm_transaction/06_ssm_transaction.iml" />
       <module fileurl="file://$PROJECT_DIR$/05_javaSE/1-javaseTest/1-javaseTest.iml" filepath="$PROJECT_DIR$/05_javaSE/1-javaseTest/1-javaseTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/21_spring_dubbo2/1spring_dubbo1/1spring_dubbo1.iml" filepath="$PROJECT_DIR$/21_spring_dubbo2/1spring_dubbo1/1spring_dubbo1.iml" />
       <module fileurl="file://$PROJECT_DIR$/05_javaSE/2-javase-collections/2-javase-collections.iml" filepath="$PROJECT_DIR$/05_javaSE/2-javase-collections/2-javase-collections.iml" />
+      <module fileurl="file://$PROJECT_DIR$/20_spring_dubbo/20_spring_dubbo.iml" filepath="$PROJECT_DIR$/20_spring_dubbo/20_spring_dubbo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/21_spring_dubbo2/21_spring_dubbo2.iml" filepath="$PROJECT_DIR$/21_spring_dubbo2/21_spring_dubbo2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/21_spring_dubbo2/2springBoot_dubbo/2springBoot_dubbo.iml" filepath="$PROJECT_DIR$/21_spring_dubbo2/2springBoot_dubbo/2springBoot_dubbo.iml" />
       <module fileurl="file://$PROJECT_DIR$/05_javaSE/3-java-Thread-Runnable/3-java-Thread-Runnable.iml" filepath="$PROJECT_DIR$/05_javaSE/3-java-Thread-Runnable/3-java-Thread-Runnable.iml" />
       <module fileurl="file://$PROJECT_DIR$/05_javaSE/4-java-desigin/4-java-desigin.iml" filepath="$PROJECT_DIR$/05_javaSE/4-java-desigin/4-java-desigin.iml" />
       <module fileurl="file://$PROJECT_DIR$/Mybatis_Spring_SpringMVC.iml" filepath="$PROJECT_DIR$/Mybatis_Spring_SpringMVC.iml" />
+      <module fileurl="file://$PROJECT_DIR$/21_spring_dubbo2/1spring_dubbo1/comsumer/comsumer.iml" filepath="$PROJECT_DIR$/21_spring_dubbo2/1spring_dubbo1/comsumer/comsumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/21_spring_dubbo2/2springBoot_dubbo/comsumer1/comsumer1.iml" filepath="$PROJECT_DIR$/21_spring_dubbo2/2springBoot_dubbo/comsumer1/comsumer1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/21_spring_dubbo2/1spring_dubbo1/provider/provider.iml" filepath="$PROJECT_DIR$/21_spring_dubbo2/1spring_dubbo1/provider/provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/21_spring_dubbo2/2springBoot_dubbo/provider1/provider1.iml" filepath="$PROJECT_DIR$/21_spring_dubbo2/2springBoot_dubbo/provider1/provider1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/20_spring_dubbo/spring_dubbo_consumer/spring_dubbo_consumer.iml" filepath="$PROJECT_DIR$/20_spring_dubbo/spring_dubbo_consumer/spring_dubbo_consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/20_spring_dubbo/spring_dubbo_provider/spring_dubbo_provider.iml" filepath="$PROJECT_DIR$/20_spring_dubbo/spring_dubbo_provider/spring_dubbo_provider.iml" />
     </modules>
   </component>
 </project>

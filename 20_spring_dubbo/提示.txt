@@ -1,0 +1,10 @@
+1、这是个demo程序，  是spring+dubbo（还不是spingBoot+dubbo）
+2、学习dubbo一般是spring+dubbo或者是SpringBoot+dubbo，现在是学习前者的提供方和调用方
+3、现在这个demo创建项目都是使用maven骨架：org.apache.maven.archetypes:maven-archetype-quickstart;我猜测是因为为了能够启动
+    因为ssm项目都是要有webapp的骨架才能启动，不像SpringBoot有启动类。
+4、parent、consumer、provider都是使用快速的maven骨架。
+    org.apache.maven.archetypes:maven-archetype-quickstart
+   果然，一创建好就有App.jave这个类（App.java也重命名自己写了一个，类似启动类）
+   这个类似SpringBoot的启动类。这样就可以启动项目。但是resources文件夹要
+   自己创建。自动生成的test可以删除，因为用不到。
+5、头文件要自己去复制过来。

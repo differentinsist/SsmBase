@@ -2,6 +2,19 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/06_ssm_transaction" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/06_ssm_transaction/00_spring_xml_only" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/06_ssm_transaction/01_spring_xml" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/06_ssm_transaction/02_spring_xml_and_annotation" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/06_ssm_transaction/03_spring_transaction_old" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/20_spring_dubbo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/20_spring_dubbo/spring_dubbo_consumer" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/20_spring_dubbo/spring_dubbo_provider" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/21_spring_dubbo2" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/21_spring_dubbo2/1spring_dubbo1" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/21_spring_dubbo2/1spring_dubbo1/comsumer" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/21_spring_dubbo2/1spring_dubbo1/provider" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/21_spring_dubbo2/2springBoot_dubbo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/21_spring_dubbo2/2springBoot_dubbo/comsumer1" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/21_spring_dubbo2/2springBoot_dubbo/provider1" charset="UTF-8" />
   </component>
 </project>

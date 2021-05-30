@@ -9,6 +9,8 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/01_mybatis_test_connect_mysql/pom.xml" />
         <option value="$PROJECT_DIR$/02_mybatis_test_connect_mysql_annotation/pom.xml" />
+        <option value="$PROJECT_DIR$/21_spring_dubbo2/2springBoot_dubbo/provider1/pom.xml" />
+        <option value="$PROJECT_DIR$/21_spring_dubbo2/2springBoot_dubbo/comsumer1/pom.xml" />
       </list>
     </option>
   </component>

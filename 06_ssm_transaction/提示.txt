@@ -1,0 +1,2 @@
+00 这个module是Mybatis+Spring整合，且无注解纯xml方式+xml写sql
+02 是xml+注解混合使用，必须在applicationContext中配置工厂吗？dao接口不用配置注解都行。
