@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		xmlns:context="http://www.springframework.org/schema/context"
+		xmlns:aop="http://www.springframework.org/schema/aop"
+		xmlns:tx="http://www.springframework.org/schema/tx"
+		xmlns:dubbo="http://code.alibabatech.com/schema/dubbo"
+		xsi:schemaLocation="
+		http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-3.0.xsd
+		http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-3.0.xsd
+		http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-3.0.xsd
+		http://code.alibabatech.com/schema/dubbo http://code.alibabatech.com/schema/dubbo/dubbo.xsd
+		">
+
+	<!-- (其实就是服务名) 提供方应用信息，用于计算依赖关系 -->
+	<dubbo:application name="hello-world-app"  />
+
+	<!-- 用dubbo协议在20880端口暴露服务 -->
+	<dubbo:protocol name="dubbo" port="20880" />
+
+	<!-- 使用zookeeper进行注册中心化 -->
+	<!--<dubbo:registry address="zookeeper://localhost:2181"/>-->
+
+	<!-- 和本地bean一样实现服务   一定要放实现类的吗？可以放接口的吗-->
+	<bean id="quickStartService" class="com.springdubbo.yun.server.ServiceAPIimpl" />
+
+	<!-- 声明需要暴露的服务接口  意思是本模块的接口，暴露出去，别人就可以使用这个接口去调用
+	 接口实现类的方法对吧 ，如果是实现类里面特有的方法呢？怎么调用？但是一般不会轻易暴露实现类
+	 而是暴露接口，因为这就是多态，不暴露接口是为了不让别人知道我是怎么实现的，实现的逻辑是啥
+	 你只管调用实现功能就行，不用管(也不给你知道)我方法里面是怎么实现的。-->
+	<dubbo:service
+			registry="N/A"
+			interface="com.springdubbo.yun.server.ServiceAPI"
+			ref="quickStartService"/>
+	<!--ref就是上面那个id对吧？-->
+	<!--timeout="10000"-->
+	<!--async="true"-->
+	<!-- registry="N/A" 是不需要注册中心的意思吗？因为我这个还没有使用注册中心-->
+
+</beans>
